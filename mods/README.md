@@ -17,6 +17,24 @@ mods/<mod_name>/
 
 `parts/{servo_id}/` mirrors stock: `3mf/`, `stl/`, and `step/`. Example: [`halloween/`](halloween/).
 
+## Audio
+
+Optional speaker replacements live in `mods/<mod_name>/assets/`. Format matches stock: **44100 Hz, mono, 16-bit PCM**. Firmware still plays `/welcome.wav` and the other root names. The build overlay copies stock [`assets/`](../assets/) first, then overwrites any basename the mod ships. A missing file stays the stock clip.
+
+Set the mod in [`platformio.ini`](../platformio.ini) (`custom_audio_mod = halloween`) and flash with `pio run -t upload`. An empty option keeps the stock image. How to flash: [docs/flash.md](../docs/flash.md).
+
+Clips with phrase marks (`welcome`, `attention`, `error`, `abort`, `dead`) need a sibling `.cue` next to the replacement WAV. `bell` has no marks. A cue without its WAV is rejected. Lines are `key=ms` (`#` comments allowed). `end_ms` must be within 200 ms of the WAV duration, phases must increase, and a blink must sit inside its window. The pack step checks this before the image is built.
+
+Firmware loads `/welcome.cue` (and the other clip names) from LittleFS at boot. A missing or invalid file keeps the stock marks compiled into the firmware. Editing a `.cue` and running `pio run -t uploadfs` changes timing without a gesture-code change.
+
+| Clip | Keys, in phase order |
+| --- | --- |
+| `welcome` | `greeting_end_ms`, `pause_end_ms`, `question_end_ms`, `end_ms`. Blink: `blink_start_ms`, `blink_end_ms` inside greeting→pause. |
+| `attention` | `pst_end_ms`, `human_end_ms`, `end_ms`. Blink inside pst→human. |
+| `error` | `uhoh_end_ms`, `human_end_ms`, `problem_end_ms`, `end_ms` |
+| `abort` | `fine_end_ms`, `didnt_want_end_ms`, `finish_end_ms`, `end_ms` |
+| `dead` | `dense_ms`, `shutdown_ms`, `end_ms` |
+
 ## Workflow
 
 Design, timeline, `PRINT_LAYOUT`, export, and checklist: [docs/3d/adding-parts.md](../docs/3d/adding-parts.md).
