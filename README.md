@@ -107,6 +107,7 @@ Cursor projects can map agent events to poses via hooks — [docs/hooks.md](docs
 | Parts / cart | [docs/shopping.md](docs/shopping.md) |
 | Wiring / power | [docs/hardware/README.md](docs/hardware/README.md) |
 | Printable parts | [3d_models/README.md](3d_models/README.md) |
+| Optional mods | [mods/README.md](mods/README.md) |
 | Assemble printed parts | [docs/3d/assembly.md](docs/3d/assembly.md) |
 | Resize CAD for another servo | [docs/3d/parametric-design.md](docs/3d/parametric-design.md) |
 | Servo axes / safe ranges | [docs/robot-movement.md](docs/robot-movement.md) |
@@ -126,6 +127,6 @@ Print it, wire it, change the CAD, swap animations, or hook up a different agent
 ## License
 
 - **Software** (firmware, integrations, scripts, documentation) — [MIT](LICENSE)
-- **Hardware designs** (CAD source and `.3mf` printables in [`3d_models/`](3d_models/); KiCad PCBs in [`hardware/`](hardware/)) — [CERN-OHL-S-2.0](3d_models/LICENSE)
+- **Hardware designs** (CAD source and printables in [`3d_models/`](3d_models/) and under [`mods/*/3d_models/`](mods/); KiCad PCBs in [`hardware/`](hardware/)) — [CERN-OHL-S-2.0](3d_models/LICENSE)
 
 See [LICENSING.md](LICENSING.md) for scope and effective date. The **Tiny Engineer** name and logo are not licensed — see [TRADEMARK.md](TRADEMARK.md).
