@@ -161,6 +161,12 @@ For each selected servo the add-in applies that preset’s parameters, then expo
 
 After the run, visibility and the design’s previous servo parameters are restored. A progress dialog stays up so Fusion can paint; Cancel stops after the current part.
 
+### Keyboard cut after a servo change
+
+The extrude after the `keyboard` sketch cuts the deck around the keys: one profile whose inner loops are the key outlines. When a larger servo grows the key grid, Fusion also maps the new key profiles into that cut, so those keys disappear ([#31](https://github.com/jamro/tiny-engineer/issues/31)).
+
+Servo Configurator and Parts Exporter (including the parameter restore after export) re-select the deck profile — the one with the most loops — after every preset change (`fix_keyboard_cut()` in [`servo.py`](../../3d_models/fusion/TinyEngineerTools/servo.py)). If you change servo parameters by hand in **Modify → Change Parameters**, edit that extrude and select only the deck profile.
+
 ## Add a new servo
 
 1. Measure a real unit (prefer calipers over datasheet marketing sizes).

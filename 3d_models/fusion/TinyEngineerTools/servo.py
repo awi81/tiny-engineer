@@ -16,6 +16,7 @@ COMMAND_DESCRIPTION = 'Select servo model and apply dimensions'
 WORKSPACE_ID = 'FusionSolidEnvironment'
 PANEL_ID = 'SolidScriptsAddinsPanel'
 SERVO_ID_PARAM = 'servo_id'
+KEYBOARD_SKETCH = 'keyboard'
 
 _handlers = []
 
@@ -175,6 +176,63 @@ def _apply_servo(design, servo_data, show_errors=True):
             ui.messageBox('Failed to set servo parameters.')
         return False
 
+    design.computeAll()
+    fix_keyboard_cut(design)
+    return True
+
+
+def _profiles(extrude):
+    """Sketch profiles an extrude uses (skips sketch text and faces)."""
+    try:
+        selection = extrude.profile
+    except Exception:
+        return []
+    items = [selection]
+    if not adsk.fusion.Profile.cast(selection) and hasattr(selection, 'count'):
+        items = [selection.item(i) for i in range(selection.count)]
+    return [p for p in map(adsk.fusion.Profile.cast, items) if p]
+
+
+def _keyboard_cut(design):
+    """Return (sketch, extrude) for the cut that uses the keyboard sketch."""
+    for component in design.allComponents:
+        sketch = component.sketches.itemByName(KEYBOARD_SKETCH)
+        if not sketch:
+            continue
+        for extrude in component.features.extrudeFeatures:
+            profiles = _profiles(extrude)
+            if profiles and profiles[0].parentSketch.name == KEYBOARD_SKETCH:
+                return sketch, extrude
+    return None, None
+
+
+def fix_keyboard_cut(design):
+    """Re-select the keyboard cut profile after a servo size change.
+
+    The extrude on the `keyboard` sketch cuts the deck region around the
+    keys: one profile whose inner loops are the key outlines. When the key
+    grid grows, Fusion also maps the new key profiles into that cut, so those
+    keys vanish (#31). Reset the selection to the profile with the most loops.
+    Returns True when the selection was changed.
+    """
+    sketch, extrude = _keyboard_cut(design)
+    if not extrude or sketch.profiles.count == 0:
+        return False
+
+    deck_loops = max(p.profileLoops.count for p in sketch.profiles)
+    selected = _profiles(extrude)
+    if len(selected) == 1 and selected[0].profileLoops.count == deck_loops:
+        return False
+
+    timeline = design.timeline
+    marker = timeline.markerPosition
+    extrude.timelineObject.rollTo(True)
+    try:
+        extrude.profile = max(
+            sketch.profiles, key=lambda p: p.profileLoops.count
+        )
+    finally:
+        timeline.markerPosition = marker
     design.computeAll()
     return True
 

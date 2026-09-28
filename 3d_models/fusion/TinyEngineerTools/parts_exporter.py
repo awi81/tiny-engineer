@@ -301,6 +301,7 @@ def _restore_params(design, snapshot):
     if to_set:
         design.modifyParameters(to_set, values)
         design.computeAll()
+        servo.fix_keyboard_cut(design)
 
 
 def _bool_input(inputs, input_id):
