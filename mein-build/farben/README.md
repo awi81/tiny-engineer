@@ -16,9 +16,9 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
 | Head, Chest, Hat, Belly, Neck, Mug, AiEmblem | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, Coffee, Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 89 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm), Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 92 g |
 | Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 77 g |
-| LaptopCase, LaptopScreen, LampCap | Alu-Silber | PETG Alu-Silber | 16 g |
+| LaptopCase, LampCap | Alu-Silber | PETG Alu-Silber | 13 g |
 | Bell (Klingel) | Silber | PLA Silber | < 1 g |
 | DeskTop (Tischplatte ohne unterste 0,36 mm), LampDiffuser (Lampenschirm) | Glas | PETG Natur (glasklar) | 27 g |
 | DeskTop, unterste 0,36 mm (2 Schichten) | Blauschimmer | PETG Transparent Blau | 5 g |
@@ -30,15 +30,19 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | --- | --- | --- | --- |
 | PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 180 g | 1 kg, 15,99 € |
 | PLA Anthrazit V2 | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-anthrazit-v2-1-kg/) | 231 g | 1 kg, 16,99 € |
-| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 267 g | 1 kg, 15,99 € |
+| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 276 g | 1 kg, 15,99 € |
 | PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
-| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 48 g | 2 Proben, 5,90 € |
+| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 39 g | 1 Probe, 2,95 € (knapp; 2 Proben mit Reserve) |
 | PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | 1 g | 50-g-Probe, 2,95 € |
 | PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 81 g | 1 kg, 21,00 € (2 Proben wären zu knapp) |
 | PETG Transparent Blau | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-transparent-blau/) | 14 g | 50-g-Probe, 2,95 € |
 | Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
 
 Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig PETG Natur bei der Plattenstärke wirkt.
+
+## Slicer-Profile
+
+DAS FILAMENT bietet Profile für Bambu Studio (PLA, PETG, TPU; alle Bambu-Drucker, auch P2S 0,4 mm): [dasfilament.de/slicer-profile](https://dasfilament.de/slicer-profile/). Import: Datei → Importieren → „Konfigurationen importieren …“ mit der ZIP-Datei. Die Rollen haben keinen RFID-Chip, das Profil im AMS einmal pro Fach wählen.
 
 ## Offene Punkte
 
