@@ -9,7 +9,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | [variante2-fusion.png](variante2-fusion.png) | Variante 2 im CAD-Modell (Fusion) |
 | [variante2-tasse.png](variante2-tasse.png) | Tasse „I ♥ IT“ im CAD-Modell |
 | [variante2-bildschirm.png](variante2-bildschirm.png) | Laptop-Bildschirm mit Konsole |
-| [variante2-realistisch.jpg](variante2-realistisch.jpg) | Aktueller Stand von Variante 2 als Foto-Vorschau |
+| [variante2-realistisch.jpg](variante2-realistisch.jpg) | Aktueller Stand von Variante 2 als Foto-Vorschau (Tisch RAL 7016) |
 | [variante2-dasfilament.jpg](variante2-dasfilament.jpg) | Variante 2: Farben von dasfilament.de, Tasse „I ♥ IT“ |
 
 ## Variante 2 (dasfilament.de)
@@ -17,8 +17,9 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
 | Head, Chest, Hat, Belly, Neck, Mug, AiEmblem, Konsolenschrift auf dem Bildschirm | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm-Hintergrund), Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 92 g |
-| Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 77 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm-Hintergrund), Chair, SeatLeft, SeatRight, Schrift auf der Tasse | Schwarz | PLA Schwarz | 79 g |
+| Tisch hinten (unter dem Stuhl) | Schwarz | PETG Schwarz | 13 g |
+| Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazitgrau | PETG RAL 7016 | 77 g |
 | LaptopCase, LampCap | Alu-Silber | PETG Alu-Silber | 13 g |
 | Bell (Klingel) | Silber | PLA Silber | < 1 g |
 | DeskTop (Tischplatte ohne unterste 0,36 mm), LampDiffuser (Lampenschirm) | Glas | PETG Natur (glasklar) | 27 g |
@@ -30,8 +31,9 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | Filament | Link | Menge für 3 Roboter | Kauf |
 | --- | --- | --- | --- |
 | PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 180 g | 1 kg, 15,99 € |
-| PLA Anthrazit V2 | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-anthrazit-v2-1-kg/) | 231 g | 1 kg, 16,99 € |
-| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 276 g | 1 kg, 15,99 € |
+| PETG RAL 7016 Anthrazitgrau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-7016-1-kg/) | 231 g | 1 kg, 21,00 € |
+| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 237 g | 1 kg, 15,99 € |
+| PETG Schwarz | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-schwarz/) | 39 g | 50-g-Probe, 2,95 € (knapp; 2 Proben mit Reserve) |
 | PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
 | PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 39 g | 1 Probe, 2,95 € (knapp; 2 Proben mit Reserve) |
 | PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | 1 g | 50-g-Probe, 2,95 € |
@@ -48,8 +50,8 @@ DAS FILAMENT bietet Profile für Bambu Studio (PLA, PETG, TPU; alle Bambu-Drucke
 ## Offene Punkte
 
 - **Glasplatte:** PETG Natur ist glasklar (PLA Natur wirkt gelblich). Die untersten 0,36 mm (erste Schicht 0,2 mm plus eine 0,16-mm-Schicht) sind PETG Transparent Blau und geben der Platte einen leichten Blauschimmer. Die Gesamtdicke ist unverändert. Druckdatei [../tischplatte/Tischplatte_Blauschicht_Teile.3mf](../tischplatte/Tischplatte_Blauschicht_Teile.3mf) (ein Objekt, zwei Teile); mit AMS ist es ein einziger Farbwechsel, ohne AMS geht es per Pause nach Schicht 2. Darunter liegen Unterplatte und geschlossener Tischkorpus in Anthrazit; Elektronik sieht man nicht.
-- **Bildschirm:** Konsole „$ claude / > Hallo Welt! / fertig. / $ _“ in Consolas Fett, 2,6 mm hoch, weiß auf schwarz, 0,36 mm tief eingelegt. Die Bildschirmseite liegt beim Druck auf dem Bett, der Farbwechsel betrifft nur die ersten zwei Schichten. Druckdatei [../bildschirm/Bildschirm_Konsole_Teile.3mf](../bildschirm/Bildschirm_Konsole_Teile.3mf). Die Striche sind nur ~0,35 mm breit; im Slicer-Vorschaubild prüfen, ob alle Zeichen gedruckt werden, sonst die Schrift größer machen.
+- **Bildschirm:** Konsole „$ ./hello / > Hallo Welt! / fertig. / $ _“ in Consolas Fett, 2,6 mm hoch, weiß auf schwarz, 0,36 mm tief eingelegt. Die Bildschirmseite liegt beim Druck auf dem Bett, der Farbwechsel betrifft nur die ersten zwei Schichten. Druckdatei [../bildschirm/Bildschirm_Konsole_Teile.3mf](../bildschirm/Bildschirm_Konsole_Teile.3mf). Die Striche sind nur ~0,35 mm breit; im Slicer-Vorschaubild prüfen, ob alle Zeichen gedruckt werden, sonst die Schrift größer machen.
 - **Klingel:** Den Knopf oben bildet der Kopf der M2×16-Schraube, mit der die Klingel am Tisch befestigt wird.
 - **Lampenschirm:** aus derselben Rolle PETG Natur. Im Original weiß oder durchscheinend.
-- **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazit. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
+- **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazitgrau (RAL 7016). Beide Teile sind PETG, weil PLA und PETG in einem Druckteil schlecht aneinander haften. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
 - **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Gedruckt wird sie mit AMS in einem Durchgang.
