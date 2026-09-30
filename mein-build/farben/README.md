@@ -18,7 +18,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | UpperArm (2×), ForearmLeft/Right, Coffee, Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 89 g |
 | Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 77 g |
 | LaptopCase, LaptopScreen, Bell, LampCap | Alu-Silber | PETG Alu-Silber | 16 g |
-| DeskTop (Tischplatte) | Glas | PETG Transparent Blau | 30 g |
+| DeskTop (Tischplatte), LampDiffuser (Lampenschirm) | Glas | PETG Natur (glasklar) | 31 g |
 | Henkel und Herz der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
 
 Filamente (1,75 mm, Preise vom 30.09.2026):
@@ -30,17 +30,15 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 267 g | 1 kg, 15,99 € |
 | PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
 | PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 49 g | 2 Proben, 5,90 € |
-| PETG Transparent Blau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-transparent-blau-1-kg/) | 91 g | 1 kg, 21,00 € (2 Proben wären zu knapp) |
-| PLA Natur (Lampenschirm) | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-natur-50-g-sample/) | 1 g | 50-g-Probe, 2,95 € |
-| PETG Natur (optional, hellerer Glaston) | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-natur/) | ~15 g | 50-g-Probe, 2,95 € |
+| PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 93 g | 1 kg, 21,00 € (2 Proben wären zu knapp) |
 | Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
 
-Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig Transparent Blau und Natur bei der Plattenstärke wirken.
+Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig PETG Natur bei der Plattenstärke wirkt.
 
 ## Offene Punkte
 
-- **Glasplatte:** Unter der Tischplatte liegen die anthrazitfarbene Unterplatte und der oben geschlossene Tischkorpus; Elektronik sieht man nicht. Die Platte wirkt deshalb dunkelblau. Für ein helles Eisblau die untersten 2–3 Schichten in PETG Natur drucken (Farbwechsel per Pause). PLA haftet schlecht auf PETG.
+- **Glasplatte:** PETG Natur ist glasklar (PLA Natur wirkt gelblich). Darunter liegen die anthrazitfarbene Unterplatte und der oben geschlossene Tischkorpus; Elektronik sieht man nicht, ein Sichtschutz ist nicht nötig.
 - **Klingel:** Den Knopf oben bildet der Kopf der M2×16-Schraube, mit der die Klingel am Tisch befestigt wird.
-- **Lampenschirm:** PLA Natur (milchig, verteilt das Licht). Im Original weiß oder durchscheinend.
+- **Lampenschirm:** aus derselben Rolle PETG Natur. Im Original weiß oder durchscheinend.
 - **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazit. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
 - **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Gedruckt wird sie mit AMS in einem Durchgang.
