@@ -30,6 +30,9 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 46 g | 2 Proben, 5,90 € |
 | PETG Transparent Blau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-transparent-blau-1-kg/) | 120 g | 1 kg, 21,00 € (3 Proben wären zu knapp) |
 | PETG Blau (Sichtschutz) | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-blau/) | ~15 g | 50-g-Probe, 2,95 € |
+| Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
+
+Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig Transparent Blau und Natur bei der Plattenstärke wirken.
 
 ## Offene Punkte
 
