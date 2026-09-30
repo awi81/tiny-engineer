@@ -16,42 +16,43 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
-| Head, Chest, Hat, Belly, Neck, Mug, AiEmblem, Konsolenschrift auf dem Bildschirm | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm-Hintergrund), Chair, SeatLeft, SeatRight, Schrift auf der Tasse | Schwarz | PLA Schwarz | 79 g |
-| Tisch hinten (unter dem Stuhl) | Schwarz | PETG Schwarz | 13 g |
-| Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazitgrau | PETG RAL 7016 | 77 g |
+| Head, Chest, Hat, Belly, Neck, Mug (mit Henkel), AiEmblem (Logo), Konsolenschrift | Weiß | PLA Weiß | 60 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm), Chair, SeatLeft, SeatRight, Schrift auf der Tasse | Schwarz | PLA Schwarz | 79 g |
+| Desk (Tischkorpus), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazitgrau | PETG RAL 7016 | 90 g |
 | LaptopCase, LampCap | Alu-Silber | PETG Alu-Silber | 13 g |
 | Bell (Klingel) | Silber | PLA Silber | < 1 g |
-| DeskTop (Tischplatte ohne unterste 0,36 mm), LampDiffuser (Lampenschirm) | Glas | PETG Natur (glasklar) | 27 g |
+| DeskTop (Tischplatte ohne unterste 0,36 mm), LampDiffuser (Lampenschirm) | Glas | PETG Natur (glasklar) | 34 g |
 | DeskTop, unterste 0,36 mm (2 Schichten) | Blauschimmer | PETG Transparent Blau | 5 g |
-| Henkel und Herz der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
+| Herz auf der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
 
-Filamente (1,75 mm, Preise vom 30.09.2026):
+Bestellung bei dasfilament.de (1,75 mm, Preise vom 30.09.2026):
 
-| Filament | Link | Menge für 3 Roboter | Kauf |
-| --- | --- | --- | --- |
-| PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 180 g | 1 kg, 15,99 € |
-| PETG RAL 7016 Anthrazitgrau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-7016-1-kg/) | 231 g | 1 kg, 21,00 € |
-| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 237 g | 1 kg, 15,99 € |
-| PETG Schwarz | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-schwarz/) | 39 g | 50-g-Probe, 2,95 € (knapp; 2 Proben mit Reserve) |
-| PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
-| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 39 g | 1 Probe, 2,95 € (knapp; 2 Proben mit Reserve) |
-| PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | 1 g | 50-g-Probe, 2,95 € |
-| PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 81 g | 1 kg, 21,00 € (2 Proben wären zu knapp) |
-| PETG Transparent Blau | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-transparent-blau/) | 14 g | 50-g-Probe, 2,95 € |
-| Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
+| Filament | Link | Bedarf für 3 Roboter | Kauf | Preis |
+| --- | --- | --- | --- | --- |
+| PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 196 g (inkl. Testteile) | 1 kg | 15,99 € |
+| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 237 g | 1 kg | 15,99 € |
+| PETG RAL 7016 Anthrazitgrau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-7016-1-kg/) | 269 g | 1 kg | 21,00 € |
+| PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 102 g | 1 kg | 21,00 € |
+| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 39 g | 2 × 50 g | 5,90 € |
+| PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | < 3 g plus Spülmenge | 50 g | 2,95 € |
+| PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | 1 g | 50 g | 2,95 € |
+| PETG Transparent Blau | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-transparent-blau/) | 15 g | 50 g | 2,95 € |
+| **Filament gesamt** | | | | **88,73 €** |
+| Farbmuster-Set, optional (68 Plättchen) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 1 | 19,94 € |
 
-Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig PETG Natur bei der Plattenstärke wirkt.
+Versandkosten stehen erst im Warenkorb. Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke; damit lässt sich prüfen, wie klar PETG Natur in Plattenstärke wirkt.
 
 ## Slicer-Profile
 
 DAS FILAMENT bietet Profile für Bambu Studio (PLA, PETG, TPU; alle Bambu-Drucker, auch P2S 0,4 mm): [dasfilament.de/slicer-profile](https://dasfilament.de/slicer-profile/). Import: Datei → Importieren → „Konfigurationen importieren …“ mit der ZIP-Datei. Die Rollen haben keinen RFID-Chip, das Profil im AMS einmal pro Fach wählen.
 
-## Offene Punkte
+## Druckhinweise
 
-- **Glasplatte:** PETG Natur ist glasklar (PLA Natur wirkt gelblich). Die untersten 0,36 mm (erste Schicht 0,2 mm plus eine 0,16-mm-Schicht) sind PETG Transparent Blau und geben der Platte einen leichten Blauschimmer. Die Gesamtdicke ist unverändert. Druckdatei [../tischplatte/Tischplatte_Blauschicht_Teile.3mf](../tischplatte/Tischplatte_Blauschicht_Teile.3mf) (ein Objekt, zwei Teile); mit AMS ist es ein einziger Farbwechsel, ohne AMS geht es per Pause nach Schicht 2. Darunter liegen Unterplatte und geschlossener Tischkorpus in Anthrazit; Elektronik sieht man nicht.
-- **Bildschirm:** Konsole „$ ./hello / Hello human! / What are we / building today?“ in Consolas Fett, 2,6 mm hoch, weiß auf schwarz, 0,36 mm tief eingelegt. Die Bildschirmseite liegt beim Druck auf dem Bett, der Farbwechsel betrifft nur die ersten zwei Schichten. Druckdatei [../bildschirm/Bildschirm_Konsole_Teile.3mf](../bildschirm/Bildschirm_Konsole_Teile.3mf). Die Striche sind nur ~0,35 mm breit; im Slicer-Vorschaubild prüfen, ob alle Zeichen gedruckt werden, sonst die Schrift größer machen.
+- **Material je Druckteil:** In keinem Teil treffen PLA und PETG aufeinander; PLA und PETG haften schlecht aneinander.
+- **PETG** haftet auf glatten Druckplatten sehr stark: strukturierte Platte oder Trennmittel verwenden.
+- **Glasplatte:** mit 100 % Füllung drucken, sonst sieht man das Füllmuster durch das klare PETG. Die untersten 0,36 mm (erste Schicht 0,2 mm plus eine 0,16-mm-Schicht) sind PETG Transparent Blau und geben einen leichten Blauschimmer; die Gesamtdicke ist unverändert. Druckdatei [../tischplatte/Tischplatte_Blauschicht_Teile.3mf](../tischplatte/Tischplatte_Blauschicht_Teile.3mf) (ein Objekt, zwei Teile); ein einziger Farbwechsel. Darunter liegen Unterplatte und geschlossener Tischkorpus in Anthrazitgrau, Elektronik sieht man nicht.
+- **Bildschirm:** Konsole „$ ./hello / Hello human! / What are we / building today?“ in Consolas Fett, 2,6 mm hoch, weiß auf schwarz, 0,36 mm tief eingelegt. Die Bildschirmseite liegt beim Druck auf dem Bett; Farbwechsel nur in den ersten zwei Schichten. Druckdatei [../bildschirm/Bildschirm_Konsole_Teile.3mf](../bildschirm/Bildschirm_Konsole_Teile.3mf). Die Striche sind nur ~0,35 mm breit; in der Slicer-Vorschau prüfen, ob alle Zeichen gedruckt werden.
+- **Tasse „I ♥ IT“:** Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel; der Henkel zeigt beim Einsetzen nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit fünf Teilen (Tasse, Herz, drei Buchstaben). Alle drei Tassen zusammen auf einer Platte drucken, dann fallen die Farbwechsel im Schriftbereich nur einmal an.
+- **Tisch:** Original-Druckdatei `Desk.3mf`, einfarbig in RAL 7016.
 - **Klingel:** Den Knopf oben bildet der Kopf der M2×16-Schraube, mit der die Klingel am Tisch befestigt wird.
-- **Lampenschirm:** aus derselben Rolle PETG Natur. Im Original weiß oder durchscheinend.
-- **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazitgrau (RAL 7016). Beide Teile sind PETG, weil PLA und PETG in einem Druckteil schlecht aneinander haften. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
-- **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Gedruckt wird sie mit AMS in einem Durchgang.
+- **Lampensockel** bleibt deckend (Anthrazitgrau): Er sitzt über dem ESP32, durchsichtig sähe man die Platine.
