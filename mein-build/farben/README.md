@@ -8,6 +8,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | [variante1-bambu.jpg](variante1-bambu.jpg) | Variante 1: Weiß, Schwarz, Silbergrau, Anthrazit, blaugraues „Glas“ |
 | [variante2-fusion.png](variante2-fusion.png) | Variante 2 im CAD-Modell (Fusion) |
 | [variante2-tasse.png](variante2-tasse.png) | Tasse „I ♥ IT“ im CAD-Modell |
+| [variante2-bildschirm.png](variante2-bildschirm.png) | Laptop-Bildschirm mit Konsole |
 | [variante2-realistisch.jpg](variante2-realistisch.jpg) | Aktueller Stand von Variante 2 als Foto-Vorschau |
 | [variante2-dasfilament.jpg](variante2-dasfilament.jpg) | Variante 2: Farben von dasfilament.de, Tasse „I ♥ IT“ |
 
@@ -15,8 +16,8 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
-| Head, Chest, Hat, Belly, Neck, Mug, AiEmblem | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm), Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 92 g |
+| Head, Chest, Hat, Belly, Neck, Mug, AiEmblem, Konsolenschrift auf dem Bildschirm | Weiß | PLA Weiß | 60 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee (Tasseninhalt), LaptopScreen (Bildschirm-Hintergrund), Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 92 g |
 | Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 77 g |
 | LaptopCase, LampCap | Alu-Silber | PETG Alu-Silber | 13 g |
 | Bell (Klingel) | Silber | PLA Silber | < 1 g |
@@ -47,6 +48,7 @@ DAS FILAMENT bietet Profile für Bambu Studio (PLA, PETG, TPU; alle Bambu-Drucke
 ## Offene Punkte
 
 - **Glasplatte:** PETG Natur ist glasklar (PLA Natur wirkt gelblich). Die untersten 0,36 mm (erste Schicht 0,2 mm plus eine 0,16-mm-Schicht) sind PETG Transparent Blau und geben der Platte einen leichten Blauschimmer. Die Gesamtdicke ist unverändert. Druckdatei [../tischplatte/Tischplatte_Blauschicht_Teile.3mf](../tischplatte/Tischplatte_Blauschicht_Teile.3mf) (ein Objekt, zwei Teile); mit AMS ist es ein einziger Farbwechsel, ohne AMS geht es per Pause nach Schicht 2. Darunter liegen Unterplatte und geschlossener Tischkorpus in Anthrazit; Elektronik sieht man nicht.
+- **Bildschirm:** Konsole „$ claude / > Hallo Welt! / fertig. / $ _“ in Consolas Fett, 2,6 mm hoch, weiß auf schwarz, 0,36 mm tief eingelegt. Die Bildschirmseite liegt beim Druck auf dem Bett, der Farbwechsel betrifft nur die ersten zwei Schichten. Druckdatei [../bildschirm/Bildschirm_Konsole_Teile.3mf](../bildschirm/Bildschirm_Konsole_Teile.3mf). Die Striche sind nur ~0,35 mm breit; im Slicer-Vorschaubild prüfen, ob alle Zeichen gedruckt werden, sonst die Schrift größer machen.
 - **Klingel:** Den Knopf oben bildet der Kopf der M2×16-Schraube, mit der die Klingel am Tisch befestigt wird.
 - **Lampenschirm:** aus derselben Rolle PETG Natur. Im Original weiß oder durchscheinend.
 - **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazit. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
