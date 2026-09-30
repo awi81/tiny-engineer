@@ -7,6 +7,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | [farbideen.jpg](farbideen.jpg) | Neun Farbkombinationen zur Auswahl |
 | [variante1-bambu.jpg](variante1-bambu.jpg) | Variante 1: Weiß, Schwarz, Silbergrau, Anthrazit, blaugraues „Glas“ |
 | [variante2-fusion.png](variante2-fusion.png) | Variante 2 im CAD-Modell (Fusion) |
+| [variante2-tasse.png](variante2-tasse.png) | Tasse „I ♥ IT“ im CAD-Modell |
 | [variante2-dasfilament.jpg](variante2-dasfilament.jpg) | Variante 2: Farben von dasfilament.de, Tasse „I ♥ IT“ |
 
 ## Variante 2 (dasfilament.de)
@@ -14,11 +15,11 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
 | Head, Chest, Hat, Belly, Neck, Mug, AiEmblem | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, LampBase, LampCap, LampButton, Coffee | Schwarz | PLA Schwarz | 9 g |
-| Desk, Chair, SeatLeft, SeatRight | Anthrazit | PLA Anthrazit V2 | 149 g |
-| LaptopCase, LaptopScreen, Bell | Alu-Silber | PETG Alu-Silber | 15 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee, Schrift auf der Tasse | Schwarz | PLA Schwarz | 6 g |
+| Desk, Chair, SeatLeft, SeatRight, LampBase | Anthrazit | PLA Anthrazit V2 | 151 g |
+| LaptopCase, LaptopScreen, Bell, LampCap | Alu-Silber | PETG Alu-Silber | 16 g |
 | DeskTop, DeskPad (Platte und Kanten) | Glas | PETG Transparent Blau | 40 g |
-| Henkel und Herz der Tasse | Feuerrot | PLA Feuerrot | < 1 g |
+| Henkel und Herz der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
 
 Filamente (1,75 mm, Preise vom 30.09.2026):
 
@@ -39,4 +40,4 @@ Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit läs
 
 - **Glasplatte:** Platte und Kanten sind durchsichtig, nur die untersten 2–3 Schichten sind Sichtschutz (Farbwechsel per Pause). Der Sichtschutz bestimmt, wie hell die Platte wirkt: PETG Natur ergibt ein helles Eisblau wie in der Vorschau, PETG Blau ein kräftiges Dunkelblau. PLA haftet schlecht auf PETG, deshalb auch der Sichtschutz aus PETG.
 - **Lampenschirm:** In Transparent Blau leuchtet die Lampe blau. Für weißes Licht PETG Natur nehmen.
-- **Tasse „I ♥ IT“:** Der Schriftzug sitzt genau gegenüber dem Henkel. Die Tasse wird so eingesetzt, dass der Henkel nach hinten zeigt und der Schriftzug nach vorn. Die Tasse ist 15 × 15 mm, die Zeichen wären etwa 4–5 mm hoch. Dafür muss das Motiv erst ins Modell (Fusion). Beim Druck wechselt die Farbe innerhalb einer Schicht; das geht nur mit Farbwechsler (AMS) oder durch Bemalen.
+- **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Mehrfarbig in einem Druck geht nur mit Farbwechsler (AMS); ohne AMS die weiße Tasse drucken und Schrift, Herz und Henkel bemalen.
