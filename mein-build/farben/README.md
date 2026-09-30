@@ -29,13 +29,13 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
 | PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 46 g | 2 Proben, 5,90 € |
 | PETG Transparent Blau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-transparent-blau-1-kg/) | 120 g | 1 kg, 21,00 € (3 Proben wären zu knapp) |
-| PETG Blau (Sichtschutz) | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-blau/) | ~15 g | 50-g-Probe, 2,95 € |
+| PETG Natur (Sichtschutz) | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-natur/) | ~15 g | 50-g-Probe, 2,95 € |
 | Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
 
 Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit lässt sich vor dem Kauf prüfen, wie durchsichtig Transparent Blau und Natur bei der Plattenstärke wirken.
 
 ## Offene Punkte
 
-- **Glasplatte:** Transparent-Blau-PETG ist ein kräftiges Blau. Damit man die Elektronik nicht sieht, die untersten 2–3 Schichten in deckendem PETG drucken (Farbwechsel per Pause). PLA (z. B. Himmelblau) haftet schlecht auf PETG, deshalb PETG Blau.
+- **Glasplatte:** Platte und Kanten sind durchsichtig, nur die untersten 2–3 Schichten sind Sichtschutz (Farbwechsel per Pause). Der Sichtschutz bestimmt, wie hell die Platte wirkt: PETG Natur ergibt ein helles Eisblau wie in der Vorschau, PETG Blau ein kräftiges Dunkelblau. PLA haftet schlecht auf PETG, deshalb auch der Sichtschutz aus PETG.
 - **Lampenschirm:** In Transparent Blau leuchtet die Lampe blau. Für weißes Licht PETG Natur nehmen.
-- **Tasse „I ♥ IT“:** Die Tasse ist 15 × 15 mm, die Zeichen wären etwa 4–5 mm hoch. Dafür muss das Motiv erst ins Modell (Fusion). Beim Druck wechselt die Farbe innerhalb einer Schicht; das geht nur mit Farbwechsler (AMS) oder durch Bemalen.
+- **Tasse „I ♥ IT“:** Der Schriftzug sitzt genau gegenüber dem Henkel. Die Tasse wird so eingesetzt, dass der Henkel nach hinten zeigt und der Schriftzug nach vorn. Die Tasse ist 15 × 15 mm, die Zeichen wären etwa 4–5 mm hoch. Dafür muss das Motiv erst ins Modell (Fusion). Beim Druck wechselt die Farbe innerhalb einer Schicht; das geht nur mit Farbwechsler (AMS) oder durch Bemalen.
