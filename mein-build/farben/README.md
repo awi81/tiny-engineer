@@ -15,8 +15,8 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | Teile | Farbe | Filament | pro Roboter |
 | --- | --- | --- | --- |
 | Head, Chest, Hat, Belly, Neck, Mug, AiEmblem | Weiß | PLA Weiß | 60 g |
-| UpperArm (2×), ForearmLeft/Right, Coffee, Chair, SeatLeft, SeatRight, Schrift auf der Tasse | Schwarz | PLA Schwarz | 76 g |
-| Desk, DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 90 g |
+| UpperArm (2×), ForearmLeft/Right, Coffee, Chair, SeatLeft, SeatRight, Tisch hinten (unter dem Stuhl), Schrift auf der Tasse | Schwarz | PLA Schwarz | 89 g |
+| Desk (vorderer Teil), DeskPad (Unterplatte mit Ecken), LampBase | Anthrazit | PLA Anthrazit V2 | 77 g |
 | LaptopCase, LaptopScreen, Bell, LampCap | Alu-Silber | PETG Alu-Silber | 16 g |
 | DeskTop (Tischplatte) | Glas | PETG Transparent Blau | 30 g |
 | Henkel und Herz der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
@@ -26,11 +26,12 @@ Filamente (1,75 mm, Preise vom 30.09.2026):
 | Filament | Link | Menge für 3 Roboter | Kauf |
 | --- | --- | --- | --- |
 | PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 180 g | 1 kg, 15,99 € |
-| PLA Anthrazit V2 | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-anthrazit-v2-1-kg/) | 271 g | 1 kg, 16,99 € |
-| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 229 g | 1 kg, 15,99 € |
+| PLA Anthrazit V2 | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-anthrazit-v2-1-kg/) | 231 g | 1 kg, 16,99 € |
+| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 267 g | 1 kg, 15,99 € |
 | PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 3 g | 50-g-Probe, 2,95 € |
 | PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 49 g | 2 Proben, 5,90 € |
 | PETG Transparent Blau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-transparent-blau-1-kg/) | 91 g | 1 kg, 21,00 € (2 Proben wären zu knapp) |
+| PLA Natur (Lampenschirm) | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-natur-50-g-sample/) | 1 g | 50-g-Probe, 2,95 € |
 | PETG Natur (optional, hellerer Glaston) | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-natur/) | ~15 g | 50-g-Probe, 2,95 € |
 | Farbmuster-Set (68 Plättchen: 34 PLA, 30 PETG, 3 TPU) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 19,94 € |
 
@@ -40,5 +41,6 @@ Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke. Damit läs
 
 - **Glasplatte:** Unter der Tischplatte liegen die anthrazitfarbene Unterplatte und der oben geschlossene Tischkorpus; Elektronik sieht man nicht. Die Platte wirkt deshalb dunkelblau. Für ein helles Eisblau die untersten 2–3 Schichten in PETG Natur drucken (Farbwechsel per Pause). PLA haftet schlecht auf PETG.
 - **Klingel:** Den Knopf oben bildet der Kopf der M2×16-Schraube, mit der die Klingel am Tisch befestigt wird.
-- **Lampenschirm:** In Transparent Blau leuchtet die Lampe blau. Für weißes Licht PETG Natur nehmen.
-- **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Mehrfarbig in einem Druck geht nur mit Farbwechsler (AMS); ohne AMS die weiße Tasse drucken und Schrift, Herz und Henkel bemalen.
+- **Lampenschirm:** PLA Natur (milchig, verteilt das Licht). Im Original weiß oder durchscheinend.
+- **Tisch:** Der Tischkorpus ist farblich geteilt: hinten unter dem Stuhl schwarz, vorn anthrazit. Druckdatei [../tisch/Tisch_Farbtrennung_Teile.3mf](../tisch/Tisch_Farbtrennung_Teile.3mf) (ein Objekt, drei Teile), gedruckt in einem Durchgang mit AMS.
+- **Tasse „I ♥ IT“:** fertig im Modell, Dateien in [../tasse/](../tasse/). Schrift und Herz sind 0,4 mm erhaben, gegenüber dem Henkel. Beim Einsetzen zeigt der Henkel nach hinten. `Tasse_ILoveIT_Teile.3mf` öffnet Bambu Studio als ein Objekt mit sechs Teilen (Tasse, Henkel, Herz, drei Buchstaben); jedem Teil die Farbe zuweisen. Gedruckt wird sie mit AMS in einem Durchgang.
