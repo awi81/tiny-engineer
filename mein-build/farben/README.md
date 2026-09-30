@@ -8,6 +8,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | [variante1-bambu.jpg](variante1-bambu.jpg) | Variante 1: Weiß, Schwarz, Silbergrau, Anthrazit, blaugraues „Glas“ |
 | [variante2-fusion.png](variante2-fusion.png) | Variante 2 im CAD-Modell (Fusion) |
 | [variante2-tasse.png](variante2-tasse.png) | Tasse „I ♥ IT“ im CAD-Modell |
+| [variante2-realistisch.jpg](variante2-realistisch.jpg) | Aktueller Stand von Variante 2 als Foto-Vorschau |
 | [variante2-dasfilament.jpg](variante2-dasfilament.jpg) | Variante 2: Farben von dasfilament.de, Tasse „I ♥ IT“ |
 
 ## Variante 2 (dasfilament.de)
