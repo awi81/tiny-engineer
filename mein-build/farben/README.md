@@ -26,26 +26,31 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | DeskTop, unterste 0,36 mm (2 Schichten) | Blauschimmer | PETG Transparent Blau | 5 g |
 | Herz auf der Tasse, LampButton | Feuerrot | PLA Feuerrot | < 1 g |
 
-Bestellung bei dasfilament.de (1,75 mm, Preise vom 30.09.2026):
+Bestellung bei dasfilament.de für die ersten zwei Roboter: Roboter 1 im Original (Kupfer/Schwarz), Roboter 2 in
+Variante 2. Die Farbe von Roboter 3 steht noch nicht fest (1,75 mm, Preise vom 01.10.2026):
 
-| Filament | Link | Bedarf für 3 Roboter | Kauf | Preis |
+| Filament | Link | Bedarf für 2 Roboter | Kauf | Preis |
 | --- | --- | --- | --- | --- |
-| PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 196 g (inkl. Testteile) | 1 kg | 15,99 € |
-| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 237 g | 1 kg | 15,99 € |
-| PETG RAL 7016 Anthrazitgrau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-7016-1-kg/) | 269 g | 1 kg | 21,00 € |
-| PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 102 g | 1 kg | 21,00 € |
-| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 39 g | 2 × 50 g | 5,90 € |
-| PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | < 3 g plus Spülmenge | 50 g | 2,95 € |
-| PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | 1 g | 50 g | 2,95 € |
-| PETG Transparent Blau | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-transparent-blau/) | 15 g | 50 g | 2,95 € |
-| **Filament gesamt** | | | | **88,73 €** |
+| PLA Weiß | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-weiss-1-kg/) | 89 g (inkl. Testteile) | 1 kg | 15,99 € |
+| PLA Schwarz | [1 kg](https://dasfilament.de/produkt/pla-filament-175-mm-schwarz-1-kg/) | 282 g | 1 kg | 15,99 € |
+| PETG Burnt Copper (Original) | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-burnt-copper-1-kg/) | 72 g | 1 kg | 21,00 € |
+| PETG RAL 7016 Anthrazitgrau | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-7016-1-kg/) | 91 g | 1 kg | 21,00 € |
+| PETG Natur | [1 kg](https://dasfilament.de/produkt/petg-filament-175-mm-natur-1-kg/) | 43 g | 1 kg | 21,00 € |
+| PETG Alu-Silber | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-alu-silber/) | 13 g | 50 g | 2,95 € |
+| PLA Feuerrot | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-feuerrot-50-g-sample/) | 7 g (fast nur Spülmenge) | 50 g | 2,95 € |
+| PLA Silber | [Probe](https://dasfilament.de/produkt/pla-filament-175-mm-silber-50-g-sample/) | < 1 g | 50 g | 2,95 € |
+| PETG Transparent Blau | [Probe](https://dasfilament.de/produkt/petg-filament-50-g-sample-175-mm-transparent-blau/) | 3 g | 50 g | 2,95 € |
+| **Filament gesamt** | | | | **106,78 €** |
 | Farbmuster-Set, optional (68 Plättchen) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 1 | 19,94 € |
+
+Die Proben kommen als loser Ring ohne Spule. Zum Drucken auf eine leere 1-kg-Spule wickeln.
+Für das Original passt PETG Burnt Copper besser zum Seiden-Kupfer als PLA Bronze (wirkt eher goldbraun).
 
 Versandkosten stehen erst im Warenkorb. Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke; damit lässt sich prüfen, wie klar PETG Natur in Plattenstärke wirkt.
 
 ## Druckprojekte
 
-Fertige Bambu-Studio-Projekte für alle Teile der drei Roboter: [../druckprojekte/](../druckprojekte/README.md).
+Fertige Bambu-Studio-Projekte für Roboter 1 (Original) und Roboter 2 (Variante 2): [../druckprojekte/](../druckprojekte/README.md).
 
 ## Slicer-Profile
 
