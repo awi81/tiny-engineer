@@ -10,6 +10,7 @@ Vorschauen sind aus einem Foto des Originals umgefärbt, keine echten Drucke. Di
 | [variante2-tasse.png](variante2-tasse.png) | Tasse „I ♥ IT“ im CAD-Modell |
 | [variante2-bildschirm.png](variante2-bildschirm.png) | Laptop-Bildschirm mit Konsole |
 | [variante2-realistisch.jpg](variante2-realistisch.jpg) | Aktueller Stand von Variante 2 als Foto-Vorschau (Tisch RAL 7016) |
+| [variante2-foto-schraeg.jpg](variante2-foto-schraeg.jpg) | Schrägansicht: Original und aktueller Stand |
 | [variante2-dasfilament.jpg](variante2-dasfilament.jpg) | Variante 2: Farben von dasfilament.de, Tasse „I ♥ IT“ |
 
 ## Variante 2 (dasfilament.de)
@@ -41,6 +42,10 @@ Bestellung bei dasfilament.de (1,75 mm, Preise vom 30.09.2026):
 | Farbmuster-Set, optional (68 Plättchen) | [Set](https://dasfilament.de/produkt/farbplaettchen-farbmuster-set-swatches/) | – | 1 | 19,94 € |
 
 Versandkosten stehen erst im Warenkorb. Das Farbmuster-Set zeigt jede Farbe in Stufen von 0,2 bis 2 mm Dicke; damit lässt sich prüfen, wie klar PETG Natur in Plattenstärke wirkt.
+
+## Druckprojekte
+
+Fertige Bambu-Studio-Projekte für alle Teile der drei Roboter: [../druckprojekte/](../druckprojekte/README.md).
 
 ## Slicer-Profile
 
